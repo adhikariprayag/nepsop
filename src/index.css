@@ -1,0 +1,39 @@
+@media (min-width: 0px) and (max-width: 300px) {
+  * {
+    font-size: 0.75rem !important;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black !important;
+}
+
+.bg-orange {
+  background-color: #f85606 !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.org{
+  color: #f85606 !important;
+}
+
+/* body{
+  height: 3000px;
+} */
+
+.cat-box{
+  z-index:-1;
+}
+
+header{
+  z-index: 100;
+}

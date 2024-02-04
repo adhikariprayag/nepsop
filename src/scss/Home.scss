@@ -1,0 +1,72 @@
+.homepage {
+
+    .cat-box {
+        height: 350px ;
+        overflow-y: scroll;
+        border-radius: 25px !important;
+        z-index: -1;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0.5em;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #f85606;
+        border-radius: 25px;
+
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: gray;
+        border-radius: 25px;
+
+    }
+
+
+    .list-group {
+        border-radius: 10px !important;
+    }
+
+    img{
+        height: 350px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    
+    // .carousel-control-prev-icon {
+    //     background: orange;
+    //     border-radius: 50%;
+    // }
+
+    @mixin res{
+        @media (min-width: 0px) and (max-width: 767px) {
+            @content;
+        }
+    }
+    
+    .items-card-res{
+        @include res{
+            display: flex;
+            justify-content: center;
+        };
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f85606;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #000;
+}

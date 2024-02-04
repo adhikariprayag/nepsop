@@ -1,0 +1,56 @@
+.head {
+    z-index: 100;
+
+    a {
+        text-decoration: none;
+        color: #fff !important;
+    }
+
+
+    ::placeholder {
+        color: black !important;
+        opacity: 0.5 !important;
+    }
+
+    .form-control:focus {
+        background-color: white !important;
+        border: #000;
+        color: #000;
+        outline: 0px !important;
+        outline-offset: 2px;
+    }
+
+
+    .navbar-toggler {
+        background-color: #c54a1a !important;
+        color: #fff !important;
+    }
+
+    .navigation-links {
+        display: none !important;
+        display: flex !important;
+        width: 55% !important;
+        gap: 20px;
+
+        a {
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+
+    .sticky {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    .sign-up-btn {
+        color: #000 !important;
+    }
+
+    .signup-btn {
+        color: #000 !important;
+    }
+}

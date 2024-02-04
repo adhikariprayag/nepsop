@@ -1,0 +1,12 @@
+@mixin res{
+    @media (min-width: 0px) and (max-width: 767px) {
+        @content;
+    }
+}
+
+.items-card-res{
+    @include res{
+        display: flex;
+        justify-content: center;
+    };
+}
