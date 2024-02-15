@@ -48,19 +48,21 @@ function Home() {
               Trending Products
             </div>
 
-
-            {product.map((a) => (
-              <div className="col-md-6 col-lg-3 py-4 items-card-res">
-                <Card
-                  src={a.thumbnail}
-                  title={a.title}
-                  des={a.price}
-                  dis={a.discountPercentage}
-                  lnk={`/details/${a.id}`} />
+            <div className="container col-lg-12">
+              <div className="row d-flex  justify-content-center ">
+                {product.map((a) => (
+                  <div className="col-md-6 col-lg-4 py-4 items-card-res justify-content-center d-flex">
+                    <Card
+                      src={a.thumbnail}
+                      title={a.title}
+                      des={a.price}
+                      dis={a.discountPercentage}
+                      lnk={`/details/${a.id}`} />
+                  </div>
+                ))}
               </div>
-            ))}
 
-
+            </div>
 
           </div>
 

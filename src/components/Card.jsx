@@ -15,7 +15,7 @@ function Card(props) {
                     Discount: 
                     {props.dis}%</p>
                 <div className='buttons'>
-                    <div className="btn btn-white border"><Link to={props.lnk} >Details</Link></div>
+                    <div className="btn btn-white border"><Link to={props.lnk}>Details</Link></div>
                     <div className="btn btn-secondary bg-orange ">Add to cart</div>
                 </div>
             </div>

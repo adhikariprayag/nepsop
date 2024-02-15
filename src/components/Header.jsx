@@ -1,23 +1,13 @@
 import React from 'react'
 import '../scss/Header.scss'
 import { Link } from 'react-router-dom'
+import '../index.js'
 
 function Header() {
     return (
-        <div className='head'>
-            <div className="top bg-orange py-1 d-none d-sm-block">
-                <div className="container align-content-center">
-                    <ul className='d-flex align-items-center m-0 flex-wrap gap-4 p-0'>
-                        <li><Link to='/'>Be a seller</Link></li>
-                        <li><Link to='/'>Pay</Link></li>
-                        <li><Link to='/'>Help & Support</Link></li>
-                        <li><Link to='/'>Partner</Link></li>
-                    </ul>
-                </div>
-            </div>
-
-            <header className='w-100'>
-                <div>
+        <>
+            <header className='bg-orange'>
+                <div className='container'>
                     <nav className="navbar navbar-expand-lg bg-body-tertiary bg-orange" >
                         <div className="container d-flex justify-content-between ">
                             <a className="navbar-brand fs-2 fw-bold" href="/">Nepsop</a>
@@ -55,9 +45,9 @@ function Header() {
                     </nav>
                 </div>
 
- 
+
             </header>
-        </div>
+        </>
     )
 }
 

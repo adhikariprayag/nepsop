@@ -4,11 +4,6 @@
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 a {
   color: black !important;
@@ -26,14 +21,12 @@ ul {
   color: #f85606 !important;
 }
 
-/* body{
-  height: 3000px;
-} */
 
 .cat-box{
   z-index:-1;
 }
 
-header{
-  z-index: 100;
+body, html{
+  width: 100% !important;
+  height: 100% !important;
 }
